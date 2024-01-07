@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="997cfc37-50ea-43f1-b9b1-b58cc7e25d3b" name="Changes" comment="Completed First Test">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Grid.java" afterDir="false" />
+    <list default="true" id="997cfc37-50ea-43f1-b9b1-b58cc7e25d3b" name="Changes" comment="Second test and third test complete">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Grid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Grid.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestGrid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestGrid.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +43,44 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
+  <component name="RunManager" selected="JUnit.TestGrid">
+    <configuration name="TestGrid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kata-6" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestGrid" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestGrid.MustReturnANotEmptyGridGivenAGridWithLastRowFullAndMiddleRowsNotEmpties" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kata-6" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestGrid" />
+      <option name="METHOD_NAME" value="MustReturnANotEmptyGridGivenAGridWithLastRowFullAndMiddleRowsNotEmpties" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestGrid.name" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kata-6" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestGrid" />
+      <option name="METHOD_NAME" value="name" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestGrid" />
+        <item itemvalue="JUnit.TestGrid.name" />
+        <item itemvalue="JUnit.TestGrid.MustReturnANotEmptyGridGivenAGridWithLastRowFullAndMiddleRowsNotEmpties" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -60,11 +98,20 @@
       <option name="project" value="LOCAL" />
       <updated>1704601042483</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Second test and third test complete">
+      <option name="closed" value="true" />
+      <created>1704602023636</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1704602023636</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Completed First Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed First Test" />
+    <MESSAGE value="Second test and third test complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="Second test and third test complete" />
   </component>
 </project>

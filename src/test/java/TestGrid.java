@@ -26,7 +26,7 @@ public class TestGrid {
                 0000
                 0000
                 0000
-                X000""");
+                0X00""");
     }
 
     @Test
@@ -40,10 +40,21 @@ public class TestGrid {
                 XXX0""");
     }
 
+    @Test
+    public void MustReturnAGridWithFirstRowEmptyGivenAGridWithFirsRowFull() {
+        Grid grid = new Grid(TestCases.Grid4x4WithLastRowNotFullAndMiddleRowsNotEmptiesAndTheFirstRowIsFull);
+        grid.next();
+        assertThat(grid.map()).isEqualTo("""
+                0000
+                0X00
+                0X00
+                0XXX""");
+    }
+
     private static class TestCases{
         static String Grid4x4WithLastRowFullAndMiddleRowsNotEmptiesAndThereAreSeveralFullRows = """
                 0000
-                X000
+                0X00
                 XXXX
                 XXXX""";
         static String Grid4x4WithLastRowFullAndMiddleRowsNotEmptiesAndTheFirstRowIsNotEmpty = """
@@ -51,6 +62,11 @@ public class TestGrid {
                 0X00
                 XXX0
                 XXXX""";
+        static String Grid4x4WithLastRowNotFullAndMiddleRowsNotEmptiesAndTheFirstRowIsFull = """
+                XXXX
+                0X00
+                0X00
+                0XXX""";
     }
 }
 

@@ -14,10 +14,9 @@ public class Grid {
         for (int i = NumberOfRows()-1; i >= 0 ; i--) {
             while(RowIsFull(i)){
                 MoveAllRowsAbove(i);
-                AtleastOneRowIsFull = true;
+                map[0] = "0".repeat(NumberOfColumns());
             }
         }
-        if (AtleastOneRowIsFull) map[0] = "0".repeat(NumberOfColumns());
     }
 
     private int NumberOfColumns() {
